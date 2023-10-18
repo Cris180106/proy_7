@@ -11,7 +11,7 @@ const main = async () => {
     const signo = functions.determinarSigno(numero1);
     console.log(`FUNCIÓN: Determinar Signo`.bgCyan);
     console.log(`Número: ${numero1}`);
-    console.log(`Resultado: ${signo}`.yellow);
+    console.log(`Resultado: ${signo}`.red);
     console.log(separator.bgMagenta);
 
   
